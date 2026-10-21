@@ -47,3 +47,7 @@ Debug builds on the simulator accept `-seedDemoEvents`, which creates a "示例"
 xcrun simctl privacy booted grant calendar io.damao.DaysCounter
 xcrun simctl launch booted io.damao.DaysCounter -seedDemoEvents
 ```
+
+## License
+
+MIT. See [LICENSE](LICENSE).
