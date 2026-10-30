@@ -1,0 +1,53 @@
+name: Bug report
+description: Something in the DaysCounter app or its widgets does not work as described
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happens
+      description: What you did and what went wrong, such as a wrong day count or an event that is missing.
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: How to reproduce
+      description: The event (date, all-day or not, calendar type) and the steps that show it.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: The release or commit you built (`git rev-parse --short HEAD`).
+  - type: input
+    id: os
+    attributes:
+      label: iOS or macOS version
+      description: For example iOS 26.1 on iPhone, or macOS 26.1.
+    validations:
+      required: true
+  - type: dropdown
+    id: where
+    attributes:
+      label: Where
+      options:
+        - App
+        - 倒数日 (Countdown) widget
+        - 追溯 (Since) widget
+        - Build / project setup
+        - Docs
+    validations:
+      required: true
+  - type: textarea
+    id: fix
+    attributes:
+      label: Suggested fix
+      description: Optional. If you know where the cause is, say so.
