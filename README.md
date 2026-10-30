@@ -5,11 +5,13 @@
 ![macOS 26+](https://img.shields.io/badge/macOS-26%2B-lightgrey)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-<!-- banner -->
+![DaysCounter](docs/images/banner.jpg)
 
 An iOS and macOS app with widgets that count down to the next all-day event in your calendars, and count up from past all-day events you pin. It reads your calendars and never changes them.
 
-<!-- screenshots -->
+| Widgets | 倒数 (Countdown) | 追溯 (Since) |
+| --- | --- | --- |
+| ![Home screen with a medium and a small countdown widget](docs/images/widgets.jpg) | ![The countdown list of upcoming all-day events](docs/images/upcoming.jpg) | ![Past events pinned in the Since tab](docs/images/since.jpg) |
 
 ## Status
 
