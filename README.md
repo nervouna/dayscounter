@@ -15,7 +15,7 @@ An iOS and macOS app with widgets that count down to the next all-day event in y
 
 ## Status
 
-DaysCounter is a personal project, built for its author's own calendars. It is early: there is no App Store or TestFlight build, and builds come from source. Running it takes a Mac with Xcode 27, iOS 26 or macOS 26, and an Apple developer account to sign the app and its widget. The interface is in Chinese. The maintainer plans a source-only v0.1.0 release; until then, build from `main`.
+DaysCounter is a personal project, built for its author's own calendars. It is early: there is no App Store or TestFlight build, and builds come from source. Running it takes a Mac with Xcode 27, iOS 26 or macOS 26, and an Apple developer account to sign the app and its widget. The interface is in Chinese. Releases are source only, with no prebuilt app: build a release tag or `main`.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) to report a bug or send a fix, and [SECURITY.md](SECURITY.md) for security problems.
 
